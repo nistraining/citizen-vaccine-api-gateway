@@ -65,6 +65,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>citizen-vaccine-api-gateway</finalName>
 	</build>
 
 </project>

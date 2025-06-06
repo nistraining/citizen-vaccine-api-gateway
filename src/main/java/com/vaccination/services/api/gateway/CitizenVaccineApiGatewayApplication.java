@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CitizenVaccineApiGatewayApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Running the citizen vaccine api gateway service");
 		SpringApplication.run(CitizenVaccineApiGatewayApplication.class, args);
 	}
 

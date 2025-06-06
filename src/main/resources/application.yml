@@ -1,0 +1,1 @@
+server:  port: 9089spring:  cloud:    gateway:      routes:        - id: citizen-vaccine-services          uri: lb://CITIZEN-VACCINE-SERVICES          predicates:            - Path=/citizen/**        - id: vaccination-services          uri: lb://VACCINATION-SERVICES          predicates:            - Path=/vaccination/**
